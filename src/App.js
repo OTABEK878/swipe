@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Sidebar from './sidebar';
+import { Route, Routes } from 'react-router-dom';
+import SwiperPage from './SwiperPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Sidebar />
+      <Routes>
+        <Route path="/swiper" element={<SwiperPage />} />
+        {/* Add other routes here if needed */}
+      </Routes>
     </div>
   );
 }

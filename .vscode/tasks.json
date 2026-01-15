@@ -1,0 +1,47 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build-project",
+			"type": "shell",
+			"command": "npm run build",
+			"args": [],
+			"isBackground": false
+		},
+		{
+			"label": "build-project",
+			"type": "shell",
+			"command": "npm run build",
+			"args": [],
+			"isBackground": false
+		},
+		{
+			"label": "build-project",
+			"type": "shell",
+			"command": "npm run build",
+			"args": [],
+			"isBackground": false
+		},
+		{
+			"label": "build-project",
+			"type": "shell",
+			"command": "npm run build",
+			"args": [],
+			"isBackground": false
+		},
+		{
+			"label": "build-project",
+			"type": "shell",
+			"command": "npm run build",
+			"args": [],
+			"isBackground": false
+		},
+		{
+			"label": "build-project",
+			"type": "shell",
+			"command": "npm run build",
+			"args": [],
+			"isBackground": false
+		}
+	]
+}
